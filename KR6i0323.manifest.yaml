@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR6i0323/v1
 canonical_location: https://kanripo.org/bkk/KR6i0323/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 大方等如來藏經
   identifiers:
@@ -31,10 +31,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6i0323_000.yaml, hash: 'sha256:fb36c26a5f02f23be983565f7f987e0fa5bc7c2bcc1a77d2ea3d3ee05753bb81'}
-  - {seq: 1, filename: KR6i0323_001.yaml, hash: 'sha256:94fcdfddf1814958a6e35a0260515d0a2d6c04660d5f0cb446290890309d1dcb'}
+  - {seq: 1, filename: KR6i0323_001.yaml, hash: 'sha256:a3dabacc3843b197d39b9d601fcab69121163a51c93971e1a118c540eef63ab1'}
   markers:
   - {seq: 0, role: markers, filename: assets/KR6i0323_000.markers.yaml, hash: 'sha256:773734a2e1b24aada5c03060acf96361301d11cc528c803850ad88c2b7c16c1b'}
-  - {seq: 1, role: markers, filename: assets/KR6i0323_001.markers.yaml, hash: 'sha256:ffc0939d00ace6c91ee742e45e55e77c7477c2e9d610c71f6055d14cf9c34b45'}
+  - {seq: 1, role: markers, filename: assets/KR6i0323_001.markers.yaml, hash: 'sha256:6bc5c8c6b93757cf49e7a2f82dca9b3cf44cfcbdc251cad3e369ae35fcfcf555'}
 table_of_contents:
 - ref:
     seq: 1
@@ -46,4 +46,7 @@ table_of_contents:
   label: 大方等如來藏經
   type: juan
   level: 1
-hash: sha256:fed14d41bd97440c78caf1d06d6f777c91f8d32da3f4000b562b45f12d8e7df6
+hash: sha256:d4be1bff743595a6ee13562f21e3c5eaf1305283c58ef857ece286c4895b7c96
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
